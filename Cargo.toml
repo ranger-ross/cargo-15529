@@ -1,0 +1,10 @@
+[package]
+name = "cargo-15529"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+sys2 = { path = "sys2" }
+
+[build-dependencies]
+sys = { path = "sys" }

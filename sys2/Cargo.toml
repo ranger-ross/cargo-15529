@@ -1,0 +1,10 @@
+[package]
+name = "sys2"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+sys = { path = "../sys" }
+
+[lib]
+crate-type = ["dylib", "rlib"]
